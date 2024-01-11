@@ -10,7 +10,7 @@ public class Member {
 	private LocalDateTime updateDate;
 	private String loginId;
 	private String loginPw;
-	private String name;
+	private static String name;
 
 	public Member(int id, LocalDateTime regDate, LocalDateTime updateDate, String loginId, String loginPw,
 			String name) {
